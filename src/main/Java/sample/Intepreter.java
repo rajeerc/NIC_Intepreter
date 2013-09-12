@@ -16,7 +16,16 @@ public class Interpreter {
     
     public void interpret (NICProp nicProp){
         //the interpretting logic is inserted here
-    }
+        int year = Integer.parseInt(nicProp.getId().substring(0, 2));
+        year += 1900;
+        int day = Integer.parseInt(nicProp.getId().substring(2, 5));
+        if (day>500)
+            gender="Female";
+        else
+            gender="Male";
+        
+        //birthday = new DateTime(year, month, day, hour, minute);
+     }
 
     public NICProp createNICProp(String id) throws InvalidNICPropException {
 
