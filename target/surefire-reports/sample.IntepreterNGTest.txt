@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: sample.IntepreterNGTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 4, Time elapsed: 0.952 sec <<< FAILURE!
+setUpClass(sample.IntepreterNGTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NoSuchMethodError: sample.Intepreter.<init>(Ljava/lang/String;)V
+	at sample.IntepreterNGTest.setUpClass(IntepreterNGTest.java:23)
